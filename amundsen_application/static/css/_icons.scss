@@ -21,6 +21,7 @@ $data-stores: (
   postgres: '../images/icons/logo-postgres.svg',
   redshift: '../images/icons/logo-redshift.svg',
   snowflake: '../images/icons/logo-snowflake.svg',
+  mariadb: '../images/icons/logo-mariadb.svg',
 );
 
 // Map of Dashboard names and icon paths
@@ -29,6 +30,8 @@ $dashboards: (
   mode: '../images/icons/logo-mode.svg',
   redash: '../images/icons/logo-redash.svg',
   tableau: '../images/icons/logo-tableau.svg',
+  metabase: '../images/icons/logo-metabase.svg',
+
 );
 
 // Map of User names and icon paths

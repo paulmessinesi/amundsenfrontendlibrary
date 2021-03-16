@@ -1,6 +1,8 @@
 import axios from 'axios';
-import { NotificationType } from 'interfaces';
 import AppConfig from 'config/config';
+axios.defaults.baseURL = AppConfig.baseURL;
+
+import { NotificationType } from 'interfaces';
 import * as API from '../v0';
 
 jest.mock('axios');

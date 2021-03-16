@@ -9,6 +9,7 @@ import { FilterType, ResourceType, SortCriteria } from '../interfaces';
 export interface AppConfig {
   analytics: AnalyticsConfig;
   badges: BadgeConfig;
+  baseURL: string;
   browse: BrowseConfig;
   date: DateFormatConfig;
   editableText: EditableTextConfig;

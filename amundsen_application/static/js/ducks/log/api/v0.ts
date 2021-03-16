@@ -1,4 +1,6 @@
 import axios from 'axios';
+import AppConfig from 'config/config';
+axios.defaults.baseURL = AppConfig.baseURL;
 
 export interface ActionLogParams {
   command?: string;

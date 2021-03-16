@@ -1,5 +1,7 @@
 import axios, { AxiosResponse } from 'axios';
 import * as qs from 'simple-query-string';
+import AppConfig from 'config/config';
+axios.defaults.baseURL = AppConfig.baseURL;
 
 import { ResourceType } from 'interfaces/Resources';
 import { DashboardMetadata } from 'interfaces/Dashboard';

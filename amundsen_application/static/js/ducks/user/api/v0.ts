@@ -1,4 +1,7 @@
 import axios, { AxiosResponse } from 'axios';
+import AppConfig from 'config/config';
+axios.defaults.baseURL = AppConfig.baseURL;
+
 import * as qs from 'simple-query-string';
 
 import { LoggedInUser, PeopleUser, Resource } from 'interfaces';
