@@ -31,7 +31,7 @@ const configDefault: AppConfig = {
   issueTracking: {
     enabled: false,
   },
-  logoPath: '/static/images/logo.svg',
+  logoPath: '/amundsen/static/images/logo.svg',
   numberFormat: null,
   mailClientFeatures: {
     feedbackEnabled: false,
