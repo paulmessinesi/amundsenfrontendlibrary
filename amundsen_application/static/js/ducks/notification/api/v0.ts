@@ -1,4 +1,7 @@
 import axios from 'axios';
+import AppConfig from 'config/config';
+axios.defaults.baseURL = AppConfig.baseURL;
+
 import { NotificationType, SendNotificationOptions } from 'interfaces';
 
 export function sendNotification(

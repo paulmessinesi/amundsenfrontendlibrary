@@ -74,7 +74,7 @@ class WatermarkLabel extends React.Component<WatermarkLabelProps> {
       <div className="watermark-label">
         <img
           className="range-icon"
-          src="/static/images/watermark-range.png"
+          src="/amundsen/static/images/watermark-range.png"
           alt=""
         />
         {this.renderWatermarkInfo(low, high)}

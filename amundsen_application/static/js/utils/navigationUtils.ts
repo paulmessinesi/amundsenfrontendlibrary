@@ -4,7 +4,7 @@ import { createBrowserHistory } from 'history';
 import { ResourceType } from 'interfaces/Resources';
 
 // https://github.com/ReactTraining/react-router/issues/3972#issuecomment-264805667
-export const BrowserHistory = createBrowserHistory();
+export const BrowserHistory = createBrowserHistory({basename: '/amundsen'});
 
 export interface SearchParams {
   term?: string;

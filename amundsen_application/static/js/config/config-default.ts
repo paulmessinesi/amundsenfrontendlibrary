@@ -4,6 +4,7 @@ import { FilterType, ResourceType, SortDirection } from '../interfaces';
 
 const configDefault: AppConfig = {
   badges: {},
+  baseURL: 'https://data.services.lydia-app.com/amundsen',
   browse: {
     curatedTags: [],
     showAllTags: true,
@@ -14,8 +15,8 @@ const configDefault: AppConfig = {
     dateTimeLong: 'MMMM Do YYYY [at] h:mm:ss a',
   },
   editableText: {
-    tableDescLength: 750,
-    columnDescLength: 250,
+    tableDescLength: 1500,
+    columnDescLength: 500,
   },
   analytics: {
     plugins: [],
@@ -30,7 +31,7 @@ const configDefault: AppConfig = {
   issueTracking: {
     enabled: false,
   },
-  logoPath: null,
+  logoPath: '/static/images/logo.svg',
   numberFormat: null,
   mailClientFeatures: {
     feedbackEnabled: false,
@@ -68,6 +69,10 @@ const configDefault: AppConfig = {
         tableau: {
           displayName: 'Tableau',
           iconClass: 'icon-tableau',
+        },
+        metabase: {
+          displayName: 'Metabase',
+          iconClass: 'icon-metabase',
         },
       },
       filterCategories: [
@@ -136,6 +141,10 @@ const configDefault: AppConfig = {
           displayName: 'Snowflake',
           iconClass: 'icon-snowflake',
         },
+        mariadb: {
+          displayName: 'MariaDb',
+          iconClass: 'icon-mariadb',
+        }
       },
       filterCategories: [
         {

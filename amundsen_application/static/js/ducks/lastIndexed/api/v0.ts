@@ -1,4 +1,6 @@
 import axios, { AxiosResponse } from 'axios';
+import AppConfig from 'config/config';
+axios.defaults.baseURL = AppConfig.baseURL;
 
 export const API_PATH = '/api/metadata/v0';
 

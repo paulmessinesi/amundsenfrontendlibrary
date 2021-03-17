@@ -1,4 +1,7 @@
 import axios, { AxiosResponse } from 'axios';
+import AppConfig from 'config/config';
+axios.defaults.baseURL = AppConfig.baseURL;
+
 import { Issue, CreateIssuePayload, NotificationPayload } from 'interfaces';
 import { notificationsEnabled } from 'config/config-utils';
 

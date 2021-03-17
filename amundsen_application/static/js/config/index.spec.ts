@@ -4,6 +4,7 @@ import { BadgeStyle } from 'config/config-types';
 
 import { ResourceType } from 'interfaces';
 
+
 describe('getSourceDisplayName', () => {
   it('returns given id if no config for that id exists', () => {
     const testId = 'fakeName';

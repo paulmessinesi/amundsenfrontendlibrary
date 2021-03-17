@@ -61,7 +61,7 @@ const config: webpack.Configuration = {
     main: [resolve('/css/styles.scss'), resolve('/js/index.tsx')],
   },
   output: {
-    publicPath: '/static/dist/',
+    publicPath: '/amundsen' + '/static/dist/',
     path: PATHS.dist,
     filename: '[name].[contenthash].js',
   },

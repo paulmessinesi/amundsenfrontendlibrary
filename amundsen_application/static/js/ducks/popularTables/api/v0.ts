@@ -1,4 +1,6 @@
 import axios, { AxiosResponse } from 'axios';
+import AppConfig from 'config/config';
+axios.defaults.baseURL = AppConfig.baseURL;
 
 import { TableResource } from 'interfaces';
 
